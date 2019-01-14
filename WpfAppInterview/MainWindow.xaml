@@ -5,9 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfAppInterview"
         mc:Ignorable="d"
-        Title="MainWindow" Height="480" Width="296" ResizeMode="NoResize">
+        Title="MainWindow" Height="506" Width="296" ResizeMode="NoResize">
     <Canvas Style="{StaticResource redStyle}">
-        <TextBox x:Name="textArea" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Width="259" Height="399" Canvas.Left="10" Canvas.Top="10" BorderBrush="Black"/>
-        <Button x:Name="confirmButton" Content="Confirm" Canvas.Left="10" Canvas.Top="414" Width="259" Click="confirmButton_Click" />
+        <TextBox x:Name="textArea" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Width="259" Height="389" Canvas.Left="10" Canvas.Top="54" BorderBrush="Black"/>
+        <Button x:Name="confirmButton" Content="Confirm" Canvas.Left="10" Canvas.Top="448" Width="259" Click="confirmButton_Click" />
+        <Label Content="Enter text&#xD;Then press 'Confirm' to count words" Canvas.Left="10" Canvas.Top="10" Width="259" Height="39"/>
     </Canvas>
 </Window>
