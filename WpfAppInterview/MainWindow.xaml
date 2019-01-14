@@ -1,0 +1,13 @@
+﻿<Window x:Class="WpfAppInterview.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfAppInterview"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="296" ResizeMode="NoResize">
+    <Canvas Style="{StaticResource redStyle}">
+        <TextBox x:Name="textArea" HorizontalAlignment="Left" TextWrapping="Wrap" Text="" Width="259" Height="399" Canvas.Left="10" Canvas.Top="10" BorderBrush="Black"/>
+        <Button x:Name="confirmButton" Content="Confirm" Canvas.Left="10" Canvas.Top="414" Width="259" Click="confirmButton_Click" />
+    </Canvas>
+</Window>
